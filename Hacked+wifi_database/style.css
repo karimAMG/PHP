@@ -1,0 +1,91 @@
+table {
+    border-color: cornflowerblue;
+    width: 100%;
+    text-align: center;
+    background-color: currentColor;
+    margin-top: 29px;
+}
+tr th {
+    color: aliceblue;
+}
+td {
+    color: coral;
+    padding: 6px 0px;
+}
+a {
+    text-decoration: none;
+}
+a.add {
+    margin: 4px;
+    color: lavender;
+}
+a.add:hover {
+    color: darkcyan;
+}
+body {
+    background-color: black;
+}
+a.del {
+    text-decoration: none;
+    color: crimson;
+}
+a.edit {
+    text-decoration: none;
+    color: green;
+}
+a.edit:hover {
+    color: chartreuse;
+}
+a.del:hover {
+    color: brown;
+}
+label {
+    font-weight: bold;
+}
+.form {
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+    color: aquamarine;
+}
+input[type="text"], input[type="numero"] {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    border-radius: 9px;
+    background-color: black;
+    color: coral;
+    margin-left: -3px;
+    outline:none;
+}
+input[type="numero"] {
+    margin-left: 10px;
+    outline:none;
+}
+input[type="submit"] {
+    width: 50%;
+    padding: 12px 20px;
+    color: floralwhite;
+    border-radius: 24px;
+    background-color: black;
+    font-weight: bold;
+    border-color: brown;
+    margin-left: 49px;
+    outline:none;
+}
+input[type="submit"]:hover {
+    background-color: crimson;
+    border-color: cadetblue;
+    color: khaki;
+}
+input[type="text"]:hover {
+    background-color: darkred;
+    border-color: burlywood;
+}
+input[type="numero"]:hover {
+    background-color: darkred;
+    border-color: burlywood;
+}
+a.return {
+    color: lightslategray;
+}
